@@ -38,6 +38,7 @@ Sample 2
 ![](https://github.com/Judyhm2/R_Analysis/blob/main/MechaCar_Statistical_Analysis/Sampleaa-table2.png)
 
 T-Test Output
+![](https://github.com/Judyhm2/R_Analysis/blob/main/MechaCar_Statistical_Analysis/Part3.png)
 
 ![](https://github.com/Judyhm2/R_Analysis/blob/main/MechaCar_Statistical_Analysis/M1MM3M.png)
 
