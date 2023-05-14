@@ -23,6 +23,7 @@ The slope of the linear model IS NOT considered to be zero, because of Residual 
 The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch. Lot 3 variance was almost double the design specifications for the suspension coils (170 plus) which cause the Standard divaiation to be much high than Lot 1 and Lot 2. Note that Lot 1 and Lot 2 has meant all design specifications. See File [MechaCarChallenge.R](https://github.com/Judyhm2/R_Analysis/blob/main/MechaCar_Statistical_Analysis/MechaCarChallenge.R) Line 12 - 37. See images below of the Rstudio Environment output.
 
 ![](https://github.com/Judyhm2/R_Analysis/blob/main/MechaCar_Statistical_Analysis/Part2.png)
+
 ![](https://github.com/Judyhm2/R_Analysis/blob/main/MechaCar_Statistical_Analysis/Part2-2.png)
 
 ### T-Test on Suspension Coils
@@ -33,9 +34,11 @@ Sample 1
 ![](https://github.com/Judyhm2/R_Analysis/blob/main/MechaCar_Statistical_Analysis/Sample-table.png)
 
 Sample 2
+
 ![](https://github.com/Judyhm2/R_Analysis/blob/main/MechaCar_Statistical_Analysis/Sampleaa-table2.png)
 
 T-Test Output
+
 ![](https://github.com/Judyhm2/R_Analysis/blob/main/MechaCar_Statistical_Analysis/M1MM3M.png)
 
 ### Study Design: MechaCar vs Competition.
