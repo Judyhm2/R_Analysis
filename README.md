@@ -14,10 +14,9 @@ In this project I have used RStudio to show the statistical technical analysis f
 Linear Regression to Predict MPG
 In variables/coefficients in the MechaCar_dataframe, the non-random amount of variance to mpg value are the Estimate value of -1.040e02 and t value of -6.559, note both of these have an extremely small p-value of 5.35e11, meaning that they had a high level of significance.
 
+The slope of the linear model IS NOT considered to be zero, because of Residual standard error: 8.774 on 44 degrees of freedom. The linear model predict mpg of MechaCar prototypes was very effective, because of Multiple R-squared: 0.7149, Adjusted R-squared: 0.6825 and F-statistic: 22.07 on 5 and 44 DF, p-value: 5.35e-11. See File [MechaCarChallenge.R](https://github.com/Judyhm2/R_Analysis/blob/main/MechaCar_Statistical_Analysis/MechaCarChallenge.R) Line 1- 11. See image below of the Rstudio console output
+
 ![](https://github.com/Judyhm2/R_Analysis/blob/main/MechaCar_Statistical_Analysis/Part1.png)
-
-The slope of the linear model IS NOT considered to be zero, because of Residual standard error: 8.774 on 44 degrees of freedom. The linear model predict mpg of MechaCar prototypes was very effective, because of Multiple R-squared: 0.7149, Adjusted R-squared: 0.6825 and F-statistic: 22.07 on 5 and 44 DF, p-value: 5.35e-11. See File MechaCarChallenge.R Line 1- 11. See image below of the Rstudio console output
-
 
 
 ### Summary Statistics on Suspension
