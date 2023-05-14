@@ -21,6 +21,7 @@ The slope of the linear model IS NOT considered to be zero, because of Residual 
 
 ### Summary Statistics on Suspension
 The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch. Lot 3 variance was almost double the design specifications for the suspension coils (170 plus) which cause the Standard divaiation to be much high than Lot 1 and Lot 2. Note that Lot 1 and Lot 2 has meant all design specifications. See File [MechaCarChallenge.R](https://github.com/Judyhm2/R_Analysis/blob/main/MechaCar_Statistical_Analysis/MechaCarChallenge.R) Line 12 - 37. See images below of the Rstudio Environment output.
+
 ![](https://github.com/Judyhm2/R_Analysis/blob/main/MechaCar_Statistical_Analysis/Part2.png)
 ![](https://github.com/Judyhm2/R_Analysis/blob/main/MechaCar_Statistical_Analysis/Part2-2.png)
 
@@ -29,9 +30,13 @@ Welch Two Sample t-test was performed on two sample table against PSI for each m
 
 Sample 1
 
+![](https://github.com/Judyhm2/R_Analysis/blob/main/MechaCar_Statistical_Analysis/Sample-table.png)
+
 Sample 2
+![](https://github.com/Judyhm2/R_Analysis/blob/main/MechaCar_Statistical_Analysis/Sampleaa-table2.png)
 
 T-Test Output
+![](https://github.com/Judyhm2/R_Analysis/blob/main/MechaCar_Statistical_Analysis/M1MM3M.png)
 
 ### Study Design: MechaCar vs Competition.
 This statistical study compares vehicle performance of the MechaCar vehicles against vehicles from other manufacturers. For each statistical analysis, in findings, I found that the Manufacturer of Lot 3 was poorly designed with a suspension coil variance greater than 100. Suspension coils that are greater than 100 can have an adverse effect on a vehicle's fuel efficiency and horse power which can result in higher maintenance cost, or safety rating. Sample 1 and Sample 2 each consisted of 10 vehicles from 150. Based on the Shapiro-Wilk test, the p-value is approximately greater than 0.05 for normal data , our t-test p-value for the majority was 0.33 which is normal for the vehicles. The alternative hypothesis indicates that it was not equal to zero with a 95 percent confidence interval: -0.0005945674 for Sample 1 and 0.0016400259 for Sample 2. I have used the Welch Two Sample t-test to test the hypothesis beacause it takes actual data to do the t-test samples. The values in the PSI are needed to run the t-test. The significance level between the two samples differs between 10,000 which means the probability of it being wrong lies between 1 in every 10,000.
